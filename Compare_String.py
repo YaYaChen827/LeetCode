@@ -6,7 +6,7 @@ def compareStrings(A, B):
     BList = list(B)
     for letter in A:
     	if letter in BList:
-			BList.remove(letter)
+		BList.remove(letter)
     if BList == []:
     	return True
     return False
